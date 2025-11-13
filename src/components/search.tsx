@@ -14,7 +14,8 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command"
-import { docsConfig } from "@/lib/docs-config"
+import { docsConfig } from "@/lib/docs-config.tsx"
+import { DialogTitle } from "@radix-ui/react-dialog"
 
 export function Search() {
   const [open, setOpen] = React.useState(false)
@@ -63,6 +64,7 @@ export function Search() {
         </kbd>
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
+        <DialogTitle className="sr-only">Search Documentation</DialogTitle>
         <CommandInput placeholder="Type a command or search..." />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
