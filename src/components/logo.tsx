@@ -1,12 +1,18 @@
-import { QrCode } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 export function Logo({ className }: { className?: string }) {
   return (
     <Link href="/" className={cn("flex items-center gap-2", className)} aria-label="Go to homepage">
-      <QrCode className="h-6 w-6 text-primary" />
-      <span className="text-lg font-semibold font-headline">QRyptography</span>
+      <Image 
+        src="/images/qrve_logo.png" 
+        alt="QRyptography Logo" 
+        width={24} 
+        height={24}
+        className="h-6 w-6"
+      />
+      <span className="text-lg font-semibold font-headline text-white">QRyptography</span>
     </Link>
   );
 }

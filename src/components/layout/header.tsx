@@ -8,7 +8,7 @@ import { Search } from "@/components/search";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-black/50 backdrop-blur-md">
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-4 hidden md:flex">
           <Logo />
@@ -23,7 +23,7 @@ export function Header() {
               href="/docs"
               className={cn(
                 buttonVariants({ variant: "ghost" }),
-                "hidden sm:inline-flex"
+                "hidden sm:inline-flex text-gray-200 hover:text-white"
               )}
             >
               <Book className="h-4 w-4 mr-2" />
@@ -33,7 +33,7 @@ export function Header() {
               href="https://github.com/firebase/genkit"
               target="_blank"
               rel="noreferrer"
-              className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}
+              className={cn(buttonVariants({ variant: "ghost", size: "icon" }), "text-gray-200 hover:text-white")}
             >
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
