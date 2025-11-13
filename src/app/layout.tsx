@@ -5,8 +5,8 @@ import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
   title: {
-    default: "QRyptoDocs",
-    template: `%s | QRyptoDocs`,
+    default: "QRyptography",
+    template: `%s | QRyptography`,
   },
   description: 'High-density AI knowledge storage and retrieval framework.',
   icons: {

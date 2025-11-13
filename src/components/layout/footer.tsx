@@ -48,7 +48,7 @@ export function Footer() {
         </div>
         <Separator className="my-8" />
         <div className="text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} QRyptoDocs. All Rights Reserved.
+          © {new Date().getFullYear()} QRyptography. All Rights Reserved.
         </div>
       </div>
     </footer>
