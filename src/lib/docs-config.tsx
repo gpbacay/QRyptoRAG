@@ -1,3 +1,4 @@
+import React from "react";
 import { CodeBlock } from "@/components/code-block"
 
 export type NavItem = {

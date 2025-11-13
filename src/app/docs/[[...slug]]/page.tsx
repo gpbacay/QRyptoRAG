@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getDocPage, getDocsPages } from "@/lib/docs-config";
+import { getDocPage, getDocsPages } from "@/lib/docs-config.tsx";
 import { Metadata } from "next";
 import { cn } from "@/lib/utils";
 import Link from "next/link";

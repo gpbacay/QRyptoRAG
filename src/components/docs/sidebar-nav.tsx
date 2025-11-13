@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-import { docsConfig } from "@/lib/docs-config"
+import { docsConfig } from "@/lib/docs-config.tsx"
 import { cn } from "@/lib/utils"
 
 export function SidebarNav() {

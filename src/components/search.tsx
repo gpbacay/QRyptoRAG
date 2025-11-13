@@ -14,7 +14,7 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command"
-import { docsConfig } from "@/lib/docs-config"
+import { docsConfig } from "@/lib/docs-config.tsx"
 
 export function Search() {
   const [open, setOpen] = React.useState(false)
