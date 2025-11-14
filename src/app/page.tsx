@@ -4,11 +4,12 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, DatabaseZap, Puzzle, Zap } from "lucide-react";
+import { DatabaseZap, Puzzle, Zap } from "lucide-react";
 import { CodeBlock } from "@/components/code-block";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Beams from "@/components/Beams";
 import { MagicCard } from "@/components/magicui/magic-card";
+import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button";
 
 export default function Home() {
   const features = [
@@ -58,11 +59,11 @@ export default function Home() {
                 QRyptography is an open-source framework for building robust, efficient, and scalable knowledge bases for your AI applications.
               </p>
               <div className="mt-8 flex justify-center gap-4">
-                <Button asChild size="lg">
-                  <Link href="/docs">
-                    Get Started <ArrowRight className="ml-2 h-5 w-5" />
+                <InteractiveHoverButton className="rounded-full w-41 flex items-center justify-center">
+                  <Link href="/docs" className="flex items-center justify-center w-full h-full text-inherit">
+                      Get Started
                   </Link>
-              </Button>
+                </InteractiveHoverButton>
               </div>
             </div>
           </section>
@@ -96,8 +97,8 @@ export default function Home() {
                        gradientColor="#262626"
                        gradientSize={300}
                        gradientOpacity={0.6}
-                       gradientFrom="#8B5CF6"
-                       gradientTo="#06B6D4"
+                       gradientFrom="#D91480" /* Using primary color */
+                       gradientTo="#44238C" /* Using accent color */
                        className="bg-gray-900/80 backdrop-blur-sm border border-gray-700/50"
                      >
                        <CardHeader>

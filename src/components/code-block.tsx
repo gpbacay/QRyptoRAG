@@ -19,8 +19,22 @@ export function CodeBlock({ code }: { code: string }) {
     }, 2000)
   }
 
+  // Function to highlight "npm" in yellow
+  const renderCode = (code: string) => {
+    if (code.startsWith('npm')) {
+      const parts = code.split(' ');
+      return (
+        <>
+          <span className="text-warning font-semibold">npm </span>
+          {parts.slice(1).join(' ')}
+        </>
+      );
+    }
+    return code;
+  };
+
   return (
-    <div className="relative font-code bg-muted rounded-md my-4 border">
+    <div className="relative font-code bg-background/80 backdrop-blur-sm rounded-md my-4 border border-white/20">
       <div className="absolute top-2 right-2">
         <button
           onClick={copyToClipboard}
@@ -35,7 +49,7 @@ export function CodeBlock({ code }: { code: string }) {
         </button>
       </div>
       <pre className="p-4 overflow-x-auto text-sm">
-        <code>{code}</code>
+        <code>{renderCode(code)}</code>
       </pre>
     </div>
   )

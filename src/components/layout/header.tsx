@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Github, Book } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
-import { ThemeToggleButton } from "@/components/theme-toggle-button";
 import { Logo } from "@/components/logo";
 import { Search } from "@/components/search";
 
@@ -23,7 +22,7 @@ export function Header() {
               href="/docs"
               className={cn(
                 buttonVariants({ variant: "ghost" }),
-                "hidden sm:inline-flex text-gray-200 hover:text-white"
+                "hidden sm:inline-flex text-gray-200 hover:text-warning"
               )}
             >
               <Book className="h-4 w-4 mr-2" />
@@ -33,12 +32,11 @@ export function Header() {
               href="https://github.com/firebase/genkit"
               target="_blank"
               rel="noreferrer"
-              className={cn(buttonVariants({ variant: "ghost", size: "icon" }), "text-gray-200 hover:text-white")}
+              className={cn(buttonVariants({ variant: "ghost", size: "icon" }), "text-gray-200 hover:text-warning")}
             >
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
             </Link>
-            <ThemeToggleButton />
           </nav>
         </div>
       </div>

@@ -1,0 +1,31 @@
+# Source files
+src/
+tests/
+examples/
+
+# Config files
+.eslintrc.json
+.prettierrc
+tsconfig.json
+jest.config.js
+
+# Git
+.git/
+.gitignore
+
+# CI
+.github/
+
+# Documentation (except README)
+docs/
+
+# Development
+*.log
+temp_qr_frames_*/
+*.mp4
+coverage/
+
+# IDE
+.vscode/
+.idea/
+

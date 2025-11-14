@@ -19,10 +19,10 @@ export function MagicCard({
   children,
   className,
   gradientSize = 200,
-  gradientColor = "#262626",
+  gradientColor = "#392259", // Using background color
   gradientOpacity = 0.8,
-  gradientFrom = "#9E7AFF",
-  gradientTo = "#FE8BBB",
+  gradientFrom = "#D91480", // Using primary color
+  gradientTo = "#44238C", // Using accent color
 }: MagicCardProps) {
   const [mounted, setMounted] = useState(false);
   const mouseX = useMotionValue(-gradientSize);
