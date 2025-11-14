@@ -9,11 +9,8 @@ import { CodeBlock } from "@/components/code-block";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Beams from "@/components/Beams";
 import { MagicCard } from "@/components/magicui/magic-card";
-import { useTheme } from "next-themes";
 
 export default function Home() {
-  const { theme } = useTheme();
-  
   const features = [
     {
       icon: <DatabaseZap className="w-8 h-8 text-primary" />,
@@ -96,7 +93,7 @@ export default function Home() {
                  {features.map((feature) => (
                    <Card key={feature.title} className="border-none p-0 shadow-none">
                      <MagicCard
-                       gradientColor={theme === "dark" ? "#262626" : "#1a1a1a"}
+                       gradientColor="#262626"
                        gradientSize={300}
                        gradientOpacity={0.6}
                        gradientFrom="#8B5CF6"
