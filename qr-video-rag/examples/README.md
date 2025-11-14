@@ -4,9 +4,9 @@ This directory contains example implementations of qr-video-rag.
 
 ## Running Examples
 
-### 1. Basic Usage (No API Keys Required)
+### Basic Usage (Completely Self-Contained)
 
-Uses mock embedder for demonstration:
+No API keys or external services required - everything works offline:
 
 ```bash
 npm install
@@ -14,53 +14,28 @@ npm run build
 npx tsx examples/basic-usage.ts
 ```
 
-### 2. Google Gemini Integration
-
-Requires Google Gemini API key. Create a `.env.local` file in the root directory:
-
-```bash
-# .env.local
-GEMINI_API_KEY=your-api-key
-```
-
-Then run:
-```bash
-npx tsx examples/with-gemini.ts ./path/to/document.txt
-```
-
-### 3. Supabase Integration
-
-Requires both Supabase and Google Gemini credentials in `.env.local`:
-
-```bash
-# .env.local
-SUPABASE_URL=your-url
-SUPABASE_KEY=your-key
-GEMINI_API_KEY=your-api-key
-```
-
-Then run:
-```bash
-npx tsx examples/with-supabase.ts
-```
+This example demonstrates:
+- Text chunking and QR code generation
+- Video encoding with FFmpeg
+- Semantic search using built-in text hashing
+- Complete end-to-end workflow
 
 ## Example Files
 
-- **`basic-usage.ts`** - Simple end-to-end example with mock embedder
-- **`with-gemini.ts`** - Production example using Google Gemini embeddings
-- **`with-supabase.ts`** - Full production setup with Supabase vector database
+- **`basic-usage.ts`** - Complete self-contained example showing all features
 
 ## Tips
 
-1. Start with `basic-usage.ts` to understand the flow
-2. The examples create videos in `./example-output/` directory
-3. Videos are small and can be committed to git for testing
-4. Check the console output for detailed logs
+1. The example creates a video file in `./example-output/` directory
+2. Videos are small and can be committed to git for testing
+3. Check the console output for detailed logs showing compression ratios
+4. The simple embedder uses deterministic hashing for reproducible results
 
 ## Next Steps
 
-After running examples:
-- Read the [API Documentation](../docs/API.md)
-- Check out the [Quick Start Guide](../docs/QUICKSTART.md)
-- Integrate into your own project
+After running the example:
+- Read the main [README](../README.md) for API details
+- Customize the embedder by implementing your own hashing algorithm
+- Integrate into your own RAG pipeline
+- Experiment with different chunk sizes and video settings
 

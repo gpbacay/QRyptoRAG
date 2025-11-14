@@ -8,7 +8,7 @@ import {
   QRVideoStoreEncoder,
   QRVideoStoreRetriever,
   createInMemoryAdapter,
-  createMockEmbedder,
+  createSimpleEmbedder,
 } from '../src';
 
 async function main() {
@@ -17,7 +17,7 @@ async function main() {
   // Step 1: Setup
   console.log('1️⃣ Setting up database and embedder...');
   const database = createInMemoryAdapter();
-  const embedder = createMockEmbedder(384); // Mock embedder for demo
+  const embedder = createSimpleEmbedder(384); // Simple embedder for demo
 
   // Step 2: Create encoder
   console.log('2️⃣ Creating encoder...');

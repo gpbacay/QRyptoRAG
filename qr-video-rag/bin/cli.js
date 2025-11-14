@@ -37,7 +37,7 @@ Environment Variables:
   GEMINI_API_KEY             Google Gemini API key for embeddings (stored in .env.local)
   EMBEDDING_PROVIDER         Embedding provider (gemini, google, mock)
 
-For more information, visit: https://github.com/giannebacay/qr-video-rag
+For more information, visit: https://github.com/gpbacay/qryptorag
 `);
 }
 

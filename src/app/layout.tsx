@@ -5,10 +5,10 @@ import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
   title: {
-    default: "QRyptography",
-    template: `%s | QRyptography`,
+    default: "QRyptoRAG",
+    template: `%s | QRyptoRAG`,
   },
-  description: 'High-density AI knowledge storage and retrieval framework.',
+  description: 'High-density knowledge storage for RAG systems using QR-encoded video.',
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",

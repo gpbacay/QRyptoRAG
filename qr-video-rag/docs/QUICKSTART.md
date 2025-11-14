@@ -145,5 +145,5 @@ const encoder = new QRVideoStoreEncoder(database, embedder, {
 
 - [Full Documentation](../README.md)
 - [API Reference](./API.md)
-- [GitHub Issues](https://github.com/giannebacay/qr-video-rag/issues)
+- [GitHub Issues](https://github.com/gpbacay/qryptorag/issues)
 

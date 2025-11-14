@@ -6,21 +6,12 @@
 
 // Database adapters
 export {
-  createSupabaseAdapter,
   createInMemoryAdapter,
-  createFileAdapter,
-  createCustomAdapter,
 } from './database';
 
 // Embedder adapters
 export {
-  createGeminiEmbedder,
-  createGoogleAIEmbedder,
-  createCohereEmbedder,
-  createHuggingFaceEmbedder,
-  createMockEmbedder,
+  createSimpleEmbedder,
   createCustomEmbedder,
-  createCachedEmbedder,
-  createBatchedEmbedder,
 } from './embedders';
 

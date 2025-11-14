@@ -29,7 +29,7 @@ export function Header() {
               Docs
             </Link>
             <Link
-              href="https://github.com/firebase/genkit"
+              href="https://github.com/gpbacay/qryptorag"
               target="_blank"
               rel="noreferrer"
               className={cn(buttonVariants({ variant: "ghost", size: "icon" }), "text-gray-200 hover:text-warning")}

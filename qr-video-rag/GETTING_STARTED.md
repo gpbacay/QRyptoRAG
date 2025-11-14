@@ -305,11 +305,11 @@ This package has the potential to become a key tool in the RAG ecosystem.
 - **Documentation**: See README.md and docs/
 - **Issues**: GitHub Issues
 - **Community**: GitHub Discussions
-- **Email**: giannebacay@example.com
+- **Email**: gpbacay@users.noreply.github.com
 
 ---
 
 **Now go make it happen! 🚀**
 
-Built with ❤️ for the QRyptography project
+Built with ❤️ for the QRyptoRAG project
 

@@ -27,19 +27,10 @@ export type {
 // Adapters
 export {
   // Database adapters
-  createSupabaseAdapter,
   createInMemoryAdapter,
-  createFileAdapter,
-  createCustomAdapter,
   // Embedder adapters
-  createGeminiEmbedder,
-  createGoogleAIEmbedder,
-  createCohereEmbedder,
-  createHuggingFaceEmbedder,
-  createMockEmbedder,
+  createSimpleEmbedder,
   createCustomEmbedder,
-  createCachedEmbedder,
-  createBatchedEmbedder,
 } from './adapters';
 
 /**

@@ -6,7 +6,7 @@ It's people like you that make qr-video-rag such a great tool for the community.
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by our Code of Conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to giannebacay@example.com.
+This project and everyone participating in it is governed by our Code of Conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to gpbacay@users.noreply.github.com.
 
 ## How Can I Contribute?
 

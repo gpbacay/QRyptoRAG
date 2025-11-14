@@ -1,8 +1,8 @@
-# **App Name**: QRyptoDocs
+# **App Name**: QRyptoRAG Documentation
 
 ## Core Features:
 
-- Landing Page: A visually appealing landing page that introduces QRyptography, highlighting its tagline, key features, and benefits. It should include a clear call-to-action with a 'Get Started' button.
+- Landing Page: A visually appealing landing page that introduces QRyptoRAG, highlighting its tagline "High-Density Knowledge Storage for RAG Systems", key features like 80-95% compression and self-contained MP4 storage. It includes a clear call-to-action with a 'Get Started' button.
 - Documentation Layout: A sidebar-driven documentation layout for easy navigation through sections such as Overview, Installation, Core Concepts, Architecture, API Reference, Adapters, Encoding & Retrieval, Examples, Changelog, and FAQ.
 - MDX Integration: Integration of MDX for writing documentation in Markdown with support for JSX components, code snippets, and rich media.
 - Code Syntax Highlighting: Implementation of syntax highlighting for code examples within the documentation to enhance readability and understanding.

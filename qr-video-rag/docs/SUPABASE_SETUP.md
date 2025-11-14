@@ -330,5 +330,5 @@ Supabase offers generous free tier:
 
 ## Support
 
-Need help? Open an issue on [GitHub](https://github.com/giannebacay/qr-video-rag/issues).
+Need help? Open an issue on [GitHub](https://github.com/gpbacay/qryptorag/issues).
 

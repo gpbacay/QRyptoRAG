@@ -15,18 +15,18 @@ export default function Home() {
   const features = [
     {
       icon: <DatabaseZap className="w-8 h-8 text-primary" />,
-      title: "High-Density Storage",
-      description: "Store extensive knowledge bases in a fraction of the space using advanced encoding.",
+      title: "80-95% Compression",
+      description: "Transform text documents into tiny MP4 files using H.264 video compression.",
     },
     {
       icon: <Zap className="w-8 h-8 text-primary" />,
-      title: "Fast Retrieval",
-      description: "Optimized for low-latency querying, perfect for real-time AI applications.",
+      title: "Self-Contained",
+      description: "No external APIs or databases required. Works offline with standard MP4 files.",
     },
     {
       icon: <Puzzle className="w-8 h-8 text-primary" />,
-      title: "Extensible Adapters",
-      description: "Easily connect to various data sources and vector databases.",
+      title: "Semantic Search",
+      description: "Built-in vector embeddings for fast, accurate retrieval across video content.",
     },
   ];
 
@@ -53,10 +53,10 @@ export default function Home() {
           <section className="container py-20 md:py-32 text-center">
             <div className="max-w-3xl mx-auto">
               <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tighter text-white">
-                High-Density AI Knowledge Storage & Retrieval
+                High-Density Knowledge Storage for RAG Systems
               </h1>
               <p className="mt-6 text-lg text-gray-200">
-                QRyptography is an open-source framework for building robust, efficient, and scalable knowledge bases for your AI applications.
+                QRyptoRAG transforms text documents into searchable, compressed MP4 videos. A self-contained solution that doesn't require external APIs - just QR-encoded video and retrieval.
               </p>
               <div className="mt-8 flex justify-center gap-4">
                 <InteractiveHoverButton className="rounded-full w-41 flex items-center justify-center">
@@ -77,7 +77,7 @@ export default function Home() {
               <p className="text-center text-gray-300 mt-2 mb-6">
                 Install the package and start integrating your knowledge base right away.
               </p>
-              <CodeBlock code="npm install qryptography" />
+              <CodeBlock code="npm install qr-video-rag" />
             </div>
           </section>
 
@@ -85,9 +85,9 @@ export default function Home() {
           <section className="bg-black/40 backdrop-blur-sm py-20 md:py-32">
             <div className="container">
               <div className="max-w-3xl mx-auto text-center">
-                <h2 className="font-headline text-3xl font-bold text-white">Everything You Need for Modern AI Knowledge</h2>
+                <h2 className="font-headline text-3xl font-bold text-white">Novel QR-Video Approach to RAG</h2>
                 <p className="mt-4 text-lg text-gray-300">
-                  A powerful and flexible framework designed for performance and developer experience.
+                  The first-of-its-kind QR-based RAG storage system. Transform knowledge into portable MP4 files.
                 </p>
               </div>
                <div className="mt-12 grid gap-8 md:grid-cols-3">

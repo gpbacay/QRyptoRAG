@@ -68,6 +68,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-[Unreleased]: https://github.com/giannebacay/qr-video-rag/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/giannebacay/qr-video-rag/releases/tag/v1.0.0
+[Unreleased]: https://github.com/gpbacay/qryptorag/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/gpbacay/qryptorag/releases/tag/v1.0.0
 

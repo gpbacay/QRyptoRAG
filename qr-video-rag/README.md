@@ -2,7 +2,7 @@
 
 > **High-density knowledge storage for RAG systems using QR-encoded video**
 
-Transform your text documents into searchable, compressed MP4 videos. Store massive amounts of knowledge in a compact, portable format with full semantic search capabilities.
+Transform your text documents into searchable, compressed MP4 videos. A completely self-contained solution that doesn't require any external APIs or databases - just pure QR-video encoding and retrieval.
 
 [![npm version](https://img.shields.io/npm/v/qr-video-rag.svg)](https://www.npmjs.com/package/qr-video-rag)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,9 +14,9 @@ Transform your text documents into searchable, compressed MP4 videos. Store mass
 
 - **🎯 Novel Approach**: First-of-its-kind QR-based RAG storage system
 - **📦 High Density**: 80-95% compression via video encoding (H.264)
-- **🔍 Semantic Search**: Full vector similarity search with your choice of embeddings
+- **🔍 Semantic Search**: Built-in text hashing for deterministic similarity search
 - **🎬 Portable Format**: Standard MP4 files work anywhere
-- **⚡ Flexible**: Bring your own database (Supabase, in-memory, file-based) and embedder (Google Gemini, Cohere, Hugging Face)
+- **⚡ Self-Contained**: No external APIs or databases required - works offline
 - **📘 TypeScript**: Full type safety and IntelliSense support
 - **🏭 Production Ready**: Battle-tested in real applications
 - **🌐 Framework Agnostic**: Works with LangChain, LlamaIndex, or standalone
@@ -45,16 +45,16 @@ pnpm add qr-video-rag
 ### Basic Usage
 
 ```typescript
-import { 
-  QRVideoStoreEncoder, 
+import {
+  QRVideoStoreEncoder,
   QRVideoStoreRetriever,
-  createInMemoryAdapter, 
-  createGeminiEmbedder 
+  createInMemoryAdapter,
+  createSimpleEmbedder
 } from 'qr-video-rag';
 
 // Setup database and embedder
 const database = createInMemoryAdapter();
-const embedder = createGeminiEmbedder(process.env.GEMINI_API_KEY!);
+const embedder = createSimpleEmbedder(384);
 
 // Create encoder
 const encoder = new QRVideoStoreEncoder(database, embedder, {
@@ -375,7 +375,7 @@ Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for 
 
 ```bash
 # Clone the repository
-git clone https://github.com/giannebacay/qr-video-rag.git
+git clone https://github.com/gpbacay/qryptorag.git
 cd qr-video-rag
 
 # Install dependencies
@@ -395,7 +395,7 @@ npm run format
 
 ## 📄 License
 
-MIT © [Gianne Bacay](https://github.com/giannebacay)
+MIT © [Gianne Bacay](https://github.com/gpbacay)
 
 See [LICENSE](./LICENSE) for details.
 
@@ -403,7 +403,7 @@ See [LICENSE](./LICENSE) for details.
 
 ## 🙏 Acknowledgments
 
-- Original concept developed for [QRyptography](https://github.com/giannebacay/QRyptography)
+- Original concept developed for [QRyptoRAG](https://github.com/gpbacay/qryptorag)
 - Inspired by the need for high-density, portable knowledge storage in RAG systems
 - Built with [FFmpeg](https://ffmpeg.org/), [qrcode](https://github.com/soldair/node-qrcode), and [jsQR](https://github.com/cozmo/jsQR)
 
@@ -414,7 +414,7 @@ See [LICENSE](./LICENSE) for details.
 - [Documentation](./docs/)
 - [Examples](./examples/)
 - [NPM Package](https://www.npmjs.com/package/qr-video-rag)
-- [GitHub Issues](https://github.com/giannebacay/qr-video-rag/issues)
+- [GitHub Issues](https://github.com/gpbacay/qryptorag/issues)
 - [Changelog](./CHANGELOG.md)
 
 ---
@@ -425,5 +425,5 @@ If you find this project useful, please consider giving it a star! ⭐
 
 ---
 
-**Made with ❤️ by the QRyptography team**
+**Made with ❤️ by the QRyptoRAG team**
 

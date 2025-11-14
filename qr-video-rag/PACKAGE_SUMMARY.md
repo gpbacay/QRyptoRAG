@@ -139,7 +139,7 @@ git add .
 git commit -m "Initial commit: qr-video-rag v1.0.0"
 
 # Add remote and push
-git remote add origin https://github.com/giannebacay/qr-video-rag.git
+git remote add origin https://github.com/gpbacay/qryptorag.git
 git branch -M main
 git push -u origin main
 
@@ -277,7 +277,7 @@ This package represents a truly innovative approach to knowledge storage in RAG 
 
 ---
 
-**Made with ❤️ for the QRyptography project**
+**Made with ❤️ for the QRyptoRAG project**
 
-Original concept: https://github.com/giannebacay/QRyptography
+Original concept: https://github.com/gpbacay/qryptorag
 
