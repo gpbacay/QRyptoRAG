@@ -1,4 +1,4 @@
-# 📹 qr-video-rag
+# qr-video-rag
 
 > **Open source high-density knowledge storage for RAG systems using QR-encoded video**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## Why QR Codes Change Everything 🚀
+## Why QR Codes Change Everything
 
 | What it enables             | How QR-video encoding makes it possible                                                                 |
 |----------------------------|-------------------------------------------------------------------------------------------------------|
@@ -21,20 +21,20 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-- **🎯 QR Innovation**: First-of-its-kind QR-based RAG storage system
-- **📦 Extreme Compression**: 80-95% size reduction via H.264 video encoding
-- **🔍 Semantic Search**: Vector embeddings enable accurate similarity search
-- **🎬 Universal Format**: Standard MP4 files playable on any device
-- **⚡ Self-Contained**: No external APIs or databases required - works offline
-- **📘 TypeScript**: Full type safety and IntelliSense support
-- **🏭 Production Ready**: Battle-tested in real AI applications
-- **🌐 Framework Agnostic**: Works with LangChain, LlamaIndex, or standalone
+- **QR Innovation**: First-of-its-kind QR-based RAG storage system
+- **Extreme Compression**: 80-95% size reduction via H.264 video encoding
+- **Semantic Search**: Vector embeddings enable accurate similarity search
+- **Universal Format**: Standard MP4 files playable on any device
+- **Self-Contained**: No external APIs or databases required - works offline
+- **TypeScript**: Full type safety and IntelliSense support
+- **Production Ready**: Battle-tested in real AI applications
+- **Framework Agnostic**: Works with LangChain, LlamaIndex, or standalone
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install qr-video-rag
@@ -51,7 +51,7 @@ pnpm add qr-video-rag
 
 ---
 
-## 🏁 Quick Start
+## Quick Start
 
 ### Basic Usage
 
@@ -99,9 +99,9 @@ for (const result of results) {
 
 ---
 
-## 🎓 How It Works
+## How It Works
 
-### Under the Hood - QRyptoRAG v1 🔍
+### Under the Hood - QRyptoRAG v1
 
 1. **Text → QR → Frame**  
 Each text chunk becomes a QR code, packed into video frames. QR codes create highly structured visual patterns perfect for video compression.
@@ -116,7 +116,7 @@ Works with any vector database and embedding provider you choose.
 
 ---
 
-## 🔄 The Complete Pipeline
+## The Complete Pipeline
 
 ### Encoding: Text → QR → Video
 
@@ -185,7 +185,7 @@ Works with any vector database and embedding provider you choose.
 
 ---
 
-## 📚 Real-World Examples
+## Real-World Examples
 
 ### Documentation Assistant
 
@@ -432,7 +432,7 @@ new QRVideoStoreRetriever(
 
 ---
 
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 
 ### Compression Ratios (H.264 Encoding)
 
@@ -459,7 +459,7 @@ new QRVideoStoreRetriever(
 
 ---
 
-## 🖥️ CLI Usage
+## CLI Usage
 
 ### Command Line Interface
 
@@ -504,7 +504,7 @@ npx qr-video-rag encode \
 
 ---
 
-## 🔧 Optimization Tips
+## Optimization Tips
 
 1. **Use caching**: Enable retriever cache for frequently accessed content
 2. **Adjust chunk size**: Larger chunks = fewer frames = faster retrieval
@@ -516,7 +516,7 @@ npx qr-video-rag encode \
 
 ---
 
-## 🚀 What's Coming in v2
+## What's Coming in v2
 
 > **Early-access notice**  
 > QRyptoRAG v1 is stable and production-ready. Future versions will expand capabilities while maintaining backward compatibility.
@@ -531,7 +531,7 @@ npx qr-video-rag encode \
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run tests
@@ -546,7 +546,7 @@ npm test -- --coverage
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
@@ -580,9 +580,9 @@ See [LICENSE](./LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- Original open source concept developed for [QRyptoRAG](https://github.com/gpbacay/qryptorag)
+- Original open source concept developed by Gianne Bacay for [QRyptoRAG](https://github.com/gpbacay/qryptorag)
 - Inspired by the need for high-density, portable knowledge storage in RAG systems
 - Built with [FFmpeg](https://ffmpeg.org/), [qrcode](https://github.com/soldair/node-qrcode), and [jsQR](https://github.com/cozmo/jsQR)
 
@@ -604,5 +604,5 @@ If you find this project useful, please consider giving it a star! ⭐
 
 ---
 
-**Made with ❤️ by the QRyptoRAG team**
+**Made with ❤️ by Gianne Bacay**
 

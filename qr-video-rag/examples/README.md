@@ -1,4 +1,4 @@
-# 📚 QR-Video-RAG Examples
+# QR-Video-RAG Examples
 
 > **Open source examples for the revolutionary QR-encoded video RAG system**
 
@@ -42,4 +42,8 @@ After running the example:
 - Customize the embedder by implementing your own hashing algorithm
 - Integrate into your own RAG pipeline
 - Experiment with different chunk sizes and video settings
+
+---
+
+**Examples created by Gianne Bacay for QRyptoRAG**
 

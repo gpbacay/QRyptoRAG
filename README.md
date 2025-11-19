@@ -1,4 +1,4 @@
-# 📹 QRyptoRAG Documentation
+# QRyptoRAG Documentation
 
 > **Beautiful, interactive documentation for the future of open source RAG systems**
 
@@ -11,28 +11,28 @@
 
 ---
 
-## 🚀 What is QRyptoRAG?
+## What is QRyptoRAG?
 
 **QRyptoRAG** is a revolutionary approach to high-density knowledge storage for Retrieval-Augmented Generation (RAG) systems. Unlike traditional vector databases, QRyptoRAG encodes textual knowledge as QR codes within MP4 video files, achieving **80-95% compression** while maintaining **sub-1-second retrieval** speeds.
 
 ### The Innovation
-- **🎯 QR-Video Encoding**: Transform text documents into searchable MP4 videos
-- **📦 Extreme Compression**: Leverage H.264 video codecs for superior data density
-- **⚡ Self-Contained**: No external APIs or databases required - works completely offline
-- **🎬 Universal Format**: MP4 files work anywhere video plays
+- **QR-Video Encoding**: Transform text documents into searchable MP4 videos
+- **Extreme Compression**: Leverage H.264 video codecs for superior data density
+- **Self-Contained**: No external APIs or databases required - works completely offline
+- **Universal Format**: MP4 files work anywhere video plays
 
 ---
 
-## 📚 About This Documentation Site
+## About This Documentation Site
 
 This is the official documentation website for the **QRyptoRAG npm package**. Built with modern web technologies, it provides:
 
-- **📖 Comprehensive Guides**: Step-by-step tutorials and examples
-- **🔧 API Reference**: Complete TypeScript documentation
-- **💡 Interactive Examples**: Live code snippets and demos
-- **🎨 Beautiful UI**: Modern design with dark/light theme support
-- **🔍 Smart Search**: Find documentation instantly
-- **📱 Responsive Design**: Perfect on desktop, tablet, and mobile
+- **Comprehensive Guides**: Step-by-step tutorials and examples
+- **API Reference**: Complete TypeScript documentation
+- **Interactive Examples**: Live code snippets and demos
+- **Beautiful UI**: Modern design with dark/light theme support
+- **Smart Search**: Find documentation instantly
+- **Responsive Design**: Perfect on desktop, tablet, and mobile
 
 ### Tech Stack
 - **Framework**: Next.js 15 with App Router
@@ -44,7 +44,7 @@ This is the official documentation website for the **QRyptoRAG npm package**. Bu
 
 ---
 
-## 🛠️ Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Node.js** >= 18.0.0
@@ -83,54 +83,54 @@ npm start
 
 ---
 
-## 📖 Documentation Structure
+## Documentation Structure
 
 The documentation covers everything you need to know about QRyptoRAG:
 
-### 📚 **Core Concepts**
+### Core Concepts
 - How QR-video encoding works
 - Understanding compression ratios
 - Semantic search fundamentals
 
-### 🚀 **Getting Started**
+### Getting Started
 - Installation and setup
 - Your first QR-video encoding
 - Basic search operations
 
-### 🔧 **API Reference**
+### API Reference
 - Complete TypeScript API documentation
 - Database adapters (Supabase, in-memory, file-based)
 - Embedder integrations (Gemini, Cohere, Hugging Face)
 
-### 💡 **Examples**
+### Examples
 - Documentation assistant setup
 - PDF processing workflows
 - Multi-language knowledge bases
 - Production deployment patterns
 
-### 🏗️ **Architecture**
+### Architecture
 - System design and data flow
 - Performance optimization tips
 - Scaling strategies
 
 ---
 
-## 📦 Related Projects
+## Related Projects
 
 ### Core Package
-- **📦 [qr-video-rag](https://www.npmjs.com/package/qr-video-rag)** - The main npm package
-- **🔗 [GitHub Repository](https://github.com/gpbacay/qryptorag)** - Source code and issues
+- **[qr-video-rag](https://www.npmjs.com/package/qr-video-rag)** - The main npm package
+- **[GitHub Repository](https://github.com/gpbacay/qryptorag)** - Source code and issues
 
 ### Key Features
-- **🎯 Novel Approach**: First QR-based RAG storage system
-- **📦 80-95% Compression**: Via H.264 video encoding
-- **⚡ Sub-1-second Retrieval**: Direct frame seeking
-- **🎬 Self-Contained**: Works offline, no external dependencies
-- **🌐 Framework Agnostic**: Compatible with LangChain, LlamaIndex
+- **Novel Approach**: First QR-based RAG storage system
+- **80-95% Compression**: Via H.264 video encoding
+- **Sub-1-second Retrieval**: Direct frame seeking
+- **Self-Contained**: Works offline, no external dependencies
+- **Framework Agnostic**: Compatible with LangChain, LlamaIndex
 
 ---
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 This documentation site embodies the innovative spirit of QRyptoRAG:
 
@@ -150,15 +150,15 @@ This documentation site embodies the innovative spirit of QRyptoRAG:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions to both the QRyptoRAG package and this documentation site!
 
 ### Ways to Contribute
-- **🐛 Report Issues**: Found a bug? Let us know!
-- **💡 Suggest Features**: Have ideas for improvement?
-- **📝 Improve Docs**: Help make documentation clearer
-- **🔧 Code Contributions**: Submit PRs for the package or docs
+- **Report Issues**: Found a bug? Let us know!
+- **Suggest Features**: Have ideas for improvement?
+- **Improve Docs**: Help make documentation clearer
+- **Code Contributions**: Submit PRs for the package or docs
 
 ### Development Setup
 
@@ -185,7 +185,7 @@ See [LICENSE](./LICENSE) for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Gianne Bacay** - Creator of this open source QRyptoRAG project
 - **Open Source Community** - For the amazing tools that make this possible
@@ -193,12 +193,12 @@ See [LICENSE](./LICENSE) for details.
 
 ---
 
-## 🌟 Star the Project
+## Star the Project
 
-If you find QRyptoRAG useful, please consider giving it a star! ⭐
+If you find QRyptoRAG useful, please consider giving it a star!
 
-- **📦 [npm package](https://www.npmjs.com/package/qr-video-rag)**
-- **🔗 [GitHub repository](https://github.com/gpbacay/qryptorag)**
+- **[npm package](https://www.npmjs.com/package/qr-video-rag)**
+- **[GitHub repository](https://github.com/gpbacay/qryptorag)**
 
 ---
 
