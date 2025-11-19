@@ -1,6 +1,8 @@
 # 📹 QRyptoRAG Documentation
 
-> **Beautiful, interactive documentation for the future of RAG systems**
+> **Beautiful, interactive documentation for the future of open source RAG systems**
+
+[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green)](https://github.com/gpbacay/qryptorag)
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.3.3-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
@@ -185,7 +187,7 @@ See [LICENSE](./LICENSE) for details.
 
 ## 🙏 Acknowledgments
 
-- **Gianne Bacay** - Creator of QRyptoRAG
+- **Gianne Bacay** - Creator of this open source QRyptoRAG project
 - **Open Source Community** - For the amazing tools that make this possible
 - **RAG Community** - For pushing the boundaries of AI knowledge management
 

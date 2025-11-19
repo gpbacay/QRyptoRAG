@@ -1,10 +1,11 @@
 # 📹 qr-video-rag
 
-> **High-density knowledge storage for RAG systems using QR-encoded video**
+> **Open source high-density knowledge storage for RAG systems using QR-encoded video**
 
 [![npm version](https://img.shields.io/npm/v/qr-video-rag.svg)](https://www.npmjs.com/package/qr-video-rag)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green)](https://github.com/gpbacay/qryptorag)
 
 ---
 
@@ -581,7 +582,7 @@ See [LICENSE](./LICENSE) for details.
 
 ## 🙏 Acknowledgments
 
-- Original concept developed for [QRyptoRAG](https://github.com/gpbacay/qryptorag)
+- Original open source concept developed for [QRyptoRAG](https://github.com/gpbacay/qryptorag)
 - Inspired by the need for high-density, portable knowledge storage in RAG systems
 - Built with [FFmpeg](https://ffmpeg.org/), [qrcode](https://github.com/soldair/node-qrcode), and [jsQR](https://github.com/cozmo/jsQR)
 

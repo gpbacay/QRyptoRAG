@@ -1,6 +1,10 @@
-# Examples
+# 📚 QR-Video-RAG Examples
 
-This directory contains example implementations of qr-video-rag.
+> **Open source examples for the revolutionary QR-encoded video RAG system**
+
+[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green)](https://github.com/gpbacay/qryptorag)
+
+This directory contains example implementations of qr-video-rag, an open source high-density knowledge storage system for RAG applications.
 
 ## Running Examples
 
