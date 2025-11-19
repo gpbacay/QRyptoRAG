@@ -1,6 +1,6 @@
 {
   "name": "qr-video-rag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "High-density knowledge storage for RAG systems using QR-encoded video. Self-contained solution with no external API dependencies - transform text into searchable MP4 videos.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
