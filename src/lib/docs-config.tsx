@@ -138,7 +138,7 @@ const docsContent: DocPage[] = [
         <CodeBlock code="pnpm add qr-video-rag" />
         <h3 className="mt-4 font-semibold">System Requirements</h3>
         <ul className="my-4 ml-6 list-disc [&>li]:mt-2">
-          <li><strong>Node.js</strong> >= 18.0.0</li>
+          <li><strong>Node.js</strong> &gt;= 18.0.0</li>
           <li><strong>FFmpeg</strong> (automatically included via ffmpeg-static)</li>
         </ul>
       </>
